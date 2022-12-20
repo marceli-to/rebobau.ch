@@ -1,0 +1,21 @@
+<header class="bg-white fixed top-0 left-0 w-full h-20 z-20">
+  <div class="h-20 p-6 max-w-5xl mx-auto flex items-center md:items-end md:justify-between relative">
+    <a href="/" class="md:order-2">
+      {{ partial:icons/logo }}
+    </a>
+    <a href="javascript:;" class="flex justify-end items-center absolute top-6 right-6 w-[24px] h-[20px] z-100 group md:hidden" data-js="btn-menu">
+      {{ partial:icons/burger }}
+      {{ partial:icons/cross }}
+    </a>
+    <nav class="menu bg-white opacity-0 z-[-1] md:opacity-100 md:z-100 md:order-1 group" data-js="menu">
+      <div class="flex justify-center items-center md:items-end h-[inherit] md:h-auto">
+        <ul class="md:flex">
+          {{ partial:menu/item text="Dienstleistungen" }}
+          {{ partial:menu/item text="Referenzen" }}
+          {{ partial:menu/item text="Über uns" }}
+          {{ partial:menu/item text="Kontakt" }}
+        </ul>
+      </div>
+    </nav>
+  </div>
+</header>
