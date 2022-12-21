@@ -10,7 +10,7 @@ body {
 }
 
 body {
-  @apply text-base md:text-md;
+  @apply font-sans text-base md:text-md;
   scroll-behavior: smooth;
 }
 

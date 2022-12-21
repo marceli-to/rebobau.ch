@@ -1,5 +1,9 @@
 h1, h2, h3, h4 {
-  @apply font-capitalized font-normal text-primary uppercase leading-tight
+  @apply leading-tight
+}
+
+h1, h2 {
+  @apply font-capitalized font-normal text-primary uppercase
 }
 
 h1 {
@@ -8,4 +12,8 @@ h1 {
 
 h2 {
   @apply text-lg md:text-xl mb-2 md:mb-4 max-w-2xl
+}
+
+h3 {
+  @apply font-sans-bold mb-0
 }

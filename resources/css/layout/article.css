@@ -1,8 +1,20 @@
 article p {
-  @apply max-w-3xl mb-3 md:mb-4
+  @apply max-w-3xl mb-4 md:mb-6
 }
 
 article ul {
-  @apply mb-3 md:mb-4 list-disc list-inside;
+  @apply mb-4 md:mb-6 list-disc list-inside;
   list-style-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='10' height='10' viewBox='0 0 100 100'><circle cx='50%' cy='50%' r='15' /></svg>");
+}
+
+article ul li {
+  @apply mb-1
+}
+
+article ul li p {
+  @apply inline-block mb-0
+}
+
+article a {
+  @apply text-black underline underline-offset-4 decoration-1 hover:no-underline
 }
