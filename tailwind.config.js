@@ -11,7 +11,19 @@ module.exports = {
 			fontFamily: {
         'sans': ['urw-din-regular', 'arial', 'system-ui', '-apple-system', 'sans'],
         'sans-bold': ['urw-din-bold', 'arial', 'system-ui', '-apple-system', 'sans'],
-        'cap': ['erbaum', 'ui-sans-serif', 'system-ui', '-apple-system', 'sans'],
+        'capitalized': ['erbaum', 'ui-sans-serif', 'system-ui', '-apple-system', 'sans'],
+      },
+
+      fontSize: {
+        sm: '0.875rem',   // 14px
+        base: '1rem',     // 16px
+        md: '1.125rem',   // 18px
+        lg: '1.5rem',     // 24px
+        xl: '1.75rem',    // 28px
+        '2xl': '2.25rem', // 36px
+        '3xl': '3rem',    // 48px
+        '4xl': '4rem',    // not in use
+        '5xl': '5rem',    // not in use
       },
 
       colors: {

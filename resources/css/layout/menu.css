@@ -1,3 +1,3 @@
 nav.menu.is-visible {
-  @apply fixed top-0 left-0 h-full w-full opacity-100 z-50 md:w-auto md:h-auto md:relative
+  @apply h-full w-full opacity-100 z-50 md:w-auto md:h-auto md:relative transition-opacity 
 }
