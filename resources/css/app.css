@@ -12,3 +12,5 @@
 @import "layout/footer";
 @import "layout/menu";
 @import "layout/article";
+
+@import "views/services";

@@ -24,13 +24,11 @@
 <link rel="stylesheet" href="{{ mix src='css/app.css' }}">
 </head>
 <body>
-{{ partial:header }}
+{{ partial:layout/header }}
 <main class="pt-20 md:pt-2 pb-8 relative z-10">
-  <div class="px-6 md:px-4 max-w-5xl mx-auto">
-    {{ template_content }}
-  </div>
+  {{ template_content }}
 </main>
-{{ partial:footer }}
+{{ partial:layout/footer }}
 <script src="{{ mix src='/js/app.js' }}"></script>
 </body>
 </html>

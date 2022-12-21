@@ -22,17 +22,30 @@ sections:
               fields:
                 -
                   import: hero
+            gallery:
+              display: Gallery
+              fields:
+                -
+                  import: gallery
+            services:
+              display: Services
+              fields:
+                -
+                  import: services
+            text_media:
+              display: Text/Media
+              fields:
+                -
+                  import: text_media
           buttons:
             - h1
             - h2
             - h3
             - bold
-            - italic
             - unorderedlist
             - removeformat
             - anchor
-            - code
-            - codeblock
+            - intro
           save_html: false
           toolbar_mode: fixed
           link_noopener: true
@@ -66,6 +79,7 @@ sections:
           options:
             main: Haupt
             meta: Meta
+            none: Verbergen
           multiple: false
           max_items: 1
           clearable: false
@@ -92,3 +106,15 @@ sections:
           max_items: 1
           listable: false
           localizable: true
+      -
+        handle: template
+        field:
+          hide_partials: true
+          blueprint: false
+          display: Template
+          type: template
+          icon: template
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          always_save: false

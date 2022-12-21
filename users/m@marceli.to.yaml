@@ -10,3 +10,6 @@ preferences:
         - author
         - slug
         - navigation
+    team:
+      columns:
+        - title

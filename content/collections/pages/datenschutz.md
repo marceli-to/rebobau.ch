@@ -3,9 +3,9 @@ id: a52b0d1c-84de-4d20-ae76-7355e575aeca
 blueprint: page
 title: Datenschutz
 author: 1f523840-e2ac-4673-87a9-d986daf11f5c
-template: pages/page
+template: content
 updated_by: 1f523840-e2ac-4673-87a9-d986daf11f5c
-updated_at: 1671618122
+updated_at: 1671632320
 navigation: meta
 content:
   -
@@ -14,7 +14,7 @@ content:
       id: lbxgktqu
       values:
         type: hero
-        image: media/visual-1.jpg
+        image: media/rebo-impressum.jpg
   -
     type: heading
     attrs:
@@ -25,18 +25,24 @@ content:
         text: Datenschutzerklärung
   -
     type: paragraph
+    attrs:
+      class: null
     content:
       -
         type: text
         text: 'Die Betreiber dieser Seiten nehmen den Schutz Ihrer persönlichen Daten sehr ernst. Wir behandeln Ihre personenbezogenen Daten vertraulich und entsprechend der gesetzlichen Datenschutzvorschriften sowie dieser Datenschutzerklärung.'
   -
     type: paragraph
+    attrs:
+      class: null
     content:
       -
         type: text
         text: 'Die Nutzung unserer Website ist in der Regel ohne Angabe personenbezogener Daten möglich. Soweit auf unseren Seiten personenbezogene Daten (beispielsweise Name, Anschrift oder E-Mail-Adressen) erhoben werden, erfolgt dies, soweit möglich, stets auf freiwilliger Basis. Diese Daten werden gemäss dieser Datenschutzerklärung teilweise an Dritte weitergegeben.'
   -
     type: paragraph
+    attrs:
+      class: null
     content:
       -
         type: text
@@ -51,18 +57,24 @@ content:
         text: Cookies
   -
     type: paragraph
+    attrs:
+      class: null
     content:
       -
         type: text
         text: 'Die Internetseiten verwenden teilweise so genannte Cookies. Cookies richten auf Ihrem Rechner keinen Schaden an und enthalten keine Viren. Cookies dienen dazu, unser Angebot nutzerfreundlicher, effektiver und sicherer zu machen. Cookies sind kleine Textdateien, die auf Ihrem Rechner abgelegt werden und die Ihr Browser speichert.'
   -
     type: paragraph
+    attrs:
+      class: null
     content:
       -
         type: text
         text: 'Die meisten der von uns verwendeten Cookies sind so genannte „Session-Cookies“. Sie werden nach Ende Ihres Besuchs automatisch gelöscht. Andere Cookies bleiben auf Ihrem Endgerät gespeichert, bis Sie diese löschen. Diese Cookies ermöglichen es uns, Ihren Browser beim nächsten Besuch wiederzuerkennen.'
   -
     type: paragraph
+    attrs:
+      class: null
     content:
       -
         type: text
@@ -77,6 +89,8 @@ content:
         text: 'Hosting Provider & Server-LogFiles'
   -
     type: paragraph
+    attrs:
+      class: null
     content:
       -
         type: text
@@ -89,6 +103,8 @@ content:
         content:
           -
             type: paragraph
+            attrs:
+              class: null
             content:
               -
                 type: text
@@ -98,6 +114,8 @@ content:
         content:
           -
             type: paragraph
+            attrs:
+              class: null
             content:
               -
                 type: text
@@ -107,6 +125,8 @@ content:
         content:
           -
             type: paragraph
+            attrs:
+              class: null
             content:
               -
                 type: text
@@ -116,6 +136,8 @@ content:
         content:
           -
             type: paragraph
+            attrs:
+              class: null
             content:
               -
                 type: text
@@ -125,6 +147,8 @@ content:
         content:
           -
             type: paragraph
+            attrs:
+              class: null
             content:
               -
                 type: text
@@ -134,18 +158,24 @@ content:
         content:
           -
             type: paragraph
+            attrs:
+              class: null
             content:
               -
                 type: text
                 text: 'Uhrzeit der Serveranfrage'
   -
     type: paragraph
+    attrs:
+      class: null
     content:
       -
         type: text
         text: 'Diese Daten können nicht direkt bestimmten Personen zugeordnet werden. Eine Zusammenführung dieser Daten mit anderen Datenquellen wird nicht vorgenommen. Wir behalten uns vor, diese Daten nachträglich zu prüfen, wenn uns konkrete Anhaltspunkte für eine rechtswidrige Nutzung bekannt werden.'
   -
     type: paragraph
+    attrs:
+      class: null
     content:
       -
         type: text
@@ -182,6 +212,8 @@ content:
         text: 'Umfang, Zweck und Rechtsgrundlage der Datenverarbeitung'
   -
     type: paragraph
+    attrs:
+      class: null
     content:
       -
         type: text
@@ -194,6 +226,8 @@ content:
         content:
           -
             type: paragraph
+            attrs:
+              class: null
             content:
               -
                 type: text
@@ -203,6 +237,8 @@ content:
         content:
           -
             type: paragraph
+            attrs:
+              class: null
             content:
               -
                 type: text
@@ -212,6 +248,8 @@ content:
         content:
           -
             type: paragraph
+            attrs:
+              class: null
             content:
               -
                 type: text
@@ -221,6 +259,8 @@ content:
         content:
           -
             type: paragraph
+            attrs:
+              class: null
             content:
               -
                 type: text
@@ -230,6 +270,8 @@ content:
         content:
           -
             type: paragraph
+            attrs:
+              class: null
             content:
               -
                 type: text
@@ -239,12 +281,16 @@ content:
         content:
           -
             type: paragraph
+            attrs:
+              class: null
             content:
               -
                 type: text
                 text: 'Nachricht, welche Sie uns übermitteln wollen'
   -
     type: paragraph
+    attrs:
+      class: null
     content:
       -
         type: text
@@ -257,6 +303,8 @@ content:
         content:
           -
             type: paragraph
+            attrs:
+              class: null
             content:
               -
                 type: text
@@ -266,18 +314,24 @@ content:
         content:
           -
             type: paragraph
+            attrs:
+              class: null
             content:
               -
                 type: text
                 text: 'Datum und Uhrzeit der Registrierung'
   -
     type: paragraph
+    attrs:
+      class: null
     content:
       -
         type: text
         text: 'Für die Verarbeitung der Daten wird im Rahmen des Absendevorgangs Ihre Einwilligung eingeholt und auf diese Datenschutzerklärung verwiesen.'
   -
     type: paragraph
+    attrs:
+      class: null
     content:
       -
         type: text
@@ -292,6 +346,8 @@ content:
         text: 'Dauer der Speicherung und Widerspruchsrecht'
   -
     type: paragraph
+    attrs:
+      class: null
     content:
       -
         type: text
@@ -312,6 +368,8 @@ content:
         text: "\_zu widerrufen. In einem solchen Fall kann die Konversation nicht fortgeführt werden."
   -
     type: paragraph
+    attrs:
+      class: null
     content:
       -
         type: text
@@ -326,12 +384,16 @@ content:
         text: 'Google Analytics'
   -
     type: paragraph
+    attrs:
+      class: null
     content:
       -
         type: text
         text: 'Diese Website nutzt Funktionen des Webanalysedienstes Google Analytics. Anbieter ist die Google Inc., 1600 Amphitheatre Parkway Mountain View, CA 94043, USA.'
   -
     type: paragraph
+    attrs:
+      class: null
     content:
       -
         type: text
@@ -346,6 +408,8 @@ content:
         text: 'IP Anonymisierung'
   -
     type: paragraph
+    attrs:
+      class: null
     content:
       -
         type: text
@@ -360,6 +424,8 @@ content:
         text: 'Browser Plugin'
   -
     type: paragraph
+    attrs:
+      class: null
     content:
       -
         type: text
@@ -380,6 +446,8 @@ content:
         text: "\_verfügbare Browser-Plugin herunterladen und installieren."
   -
     type: paragraph
+    attrs:
+      class: null
     content:
       -
         type: text
@@ -405,6 +473,8 @@ content:
         text: Auftragsdatenverarbeitung
   -
     type: paragraph
+    attrs:
+      class: null
     content:
       -
         type: text
@@ -419,6 +489,8 @@ content:
         text: 'Demografische Merkmale bei Google Analytics'
   -
     type: paragraph
+    attrs:
+      class: null
     content:
       -
         type: text
@@ -441,12 +513,16 @@ content:
         text: 'Umfang, Zweck und Rechtsgrundlage der Datenverarbeitung'
   -
     type: paragraph
+    attrs:
+      class: null
     content:
       -
         type: text
         text: 'Diese Webseite verwendet Google Maps zur Nutzung von Karten und zur Erstellung von Anfahrtsplänen. Es handelt sich hierbei um einen Dienst der Google LLC, 1600 Amphitheatre Parkway, Mountain View, CA 94043 USA, nachfolgend nur „Google“ genannt. Durch die Zertifizierung nach dem EU-US-Datenschutzschild („EU-US Privacy Shield“) garantiert Google, dass die Datenschutzvorgaben der EU auch bei der Verarbeitung von Daten in den USA eingehalten werden.'
   -
     type: paragraph
+    attrs:
+      class: null
     content:
       -
         type: text
@@ -461,12 +537,16 @@ content:
         text: 'Dauer der Speicherung und Widerspruchsrecht'
   -
     type: paragraph
+    attrs:
+      class: null
     content:
       -
         type: text
         text: 'Sofern Sie mit dieser Verarbeitung nicht einverstanden sind, haben Sie die Möglichkeit, die Installation der Cookies durch die entsprechenden Einstellungen in Ihrem Internet-Browser zu verhindern.'
   -
     type: paragraph
+    attrs:
+      class: null
     content:
       -
         type: text
@@ -509,6 +589,8 @@ content:
         text: 'Recht auf Auskunft, Löschung, Sperrung'
   -
     type: paragraph
+    attrs:
+      class: null
     content:
       -
         type: text

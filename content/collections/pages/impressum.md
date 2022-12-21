@@ -3,9 +3,9 @@ id: 2faf3820-df67-410a-8a40-0c7e2b0e7e89
 blueprint: page
 title: Impressum
 author: 1f523840-e2ac-4673-87a9-d986daf11f5c
-template: pages/page
+template: content
 updated_by: 1f523840-e2ac-4673-87a9-d986daf11f5c
-updated_at: 1671616343
+updated_at: 1671632332
 navigation: meta
 content:
   -
@@ -14,7 +14,7 @@ content:
       id: lbxg2k4n
       values:
         type: hero
-        image: media/visual-1.jpg
+        image: media/rebo-impressum.jpg
   -
     type: heading
     attrs:
@@ -33,6 +33,8 @@ content:
         text: 'Inhaber der Website'
   -
     type: paragraph
+    attrs:
+      class: null
     content:
       -
         type: text
@@ -70,6 +72,8 @@ content:
         text: 'Design und Entwicklung'
   -
     type: paragraph
+    attrs:
+      class: null
     content:
       -
         type: text
@@ -130,6 +134,8 @@ content:
         text: Programmierung
   -
     type: paragraph
+    attrs:
+      class: null
     content:
       -
         type: text
