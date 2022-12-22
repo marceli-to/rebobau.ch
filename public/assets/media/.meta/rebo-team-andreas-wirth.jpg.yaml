@@ -1,4 +1,6 @@
-data: {  }
+data:
+  focus: 52-24-1
+  alt: 'Andreas Wirth'
 size: 1018883
 last_modified: 1671641320
 width: 2000

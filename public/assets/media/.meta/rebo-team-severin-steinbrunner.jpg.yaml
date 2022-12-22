@@ -1,4 +1,6 @@
-data: {  }
+data:
+  focus: 51-18-1
+  alt: 'Severin Steinbrunner'
 size: 906373
 last_modified: 1671641338
 width: 2000

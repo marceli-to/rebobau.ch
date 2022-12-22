@@ -98,15 +98,6 @@ sections:
           validate:
             - required
       -
-        handle: parent
-        field:
-          type: entries
-          collections:
-            - pages
-          max_items: 1
-          listable: false
-          localizable: true
-      -
         handle: template
         field:
           hide_partials: true
@@ -115,6 +106,25 @@ sections:
           type: template
           icon: template
           listable: hidden
+          instructions_position: below
+          visibility: visible
+          always_save: false
+          instructions: 'Which template to use'
+          validate:
+            - required
+      -
+        handle: parent
+        field:
+          type: entries
+          collections:
+            - pages
+          max_items: 1
+          listable: false
+          localizable: true
           instructions_position: above
           visibility: visible
           always_save: false
+          mode: default
+          create: true
+          validate:
+            - required

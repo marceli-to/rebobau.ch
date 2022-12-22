@@ -7,8 +7,40 @@ sections:
         field:
           type: text
           required: true
+          input_type: text
+          antlers: false
+          display: Title
+          icon: text
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          always_save: false
           validate:
             - required
+      -
+        handle: team_member_name
+        field:
+          antlers: false
+          display: Name
+          type: textarea
+          icon: textarea
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          always_save: false
+          validate:
+            - required
+      -
+        handle: team_member_function
+        field:
+          antlers: false
+          display: Function
+          type: textarea
+          icon: textarea
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          always_save: false
       -
         handle: team_member_description
         field:
@@ -22,8 +54,8 @@ sections:
             - anchor
           save_html: false
           toolbar_mode: fixed
-          link_noopener: false
-          link_noreferrer: false
+          link_noopener: true
+          link_noreferrer: true
           target_blank: false
           reading_time: false
           fullscreen: true
@@ -31,7 +63,7 @@ sections:
           enable_input_rules: true
           enable_paste_rules: true
           antlers: false
-          remove_empty_nodes: false
+          remove_empty_nodes: true
           display: Description
           type: bard
           icon: bard
@@ -66,5 +98,14 @@ sections:
         handle: slug
         field:
           type: slug
+          localizable: true
+      -
+        handle: parent
+        field:
+          type: entries
+          collections:
+            - team
+          max_items: 1
+          listable: false
           localizable: true
 title: Team

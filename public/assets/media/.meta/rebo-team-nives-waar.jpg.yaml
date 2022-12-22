@@ -1,4 +1,6 @@
-data: {  }
+data:
+  focus: 49-1-1
+  alt: 'Nives Waar'
 size: 907159
 last_modified: 1671641329
 width: 2000

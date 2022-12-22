@@ -3,7 +3,7 @@ id: 2faf3820-df67-410a-8a40-0c7e2b0e7e89
 blueprint: page
 title: Impressum
 author: 1f523840-e2ac-4673-87a9-d986daf11f5c
-template: content
+template: pages/default
 updated_by: 1f523840-e2ac-4673-87a9-d986daf11f5c
 updated_at: 1671632332
 navigation: meta

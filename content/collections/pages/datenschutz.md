@@ -3,7 +3,7 @@ id: a52b0d1c-84de-4d20-ae76-7355e575aeca
 blueprint: page
 title: Datenschutz
 author: 1f523840-e2ac-4673-87a9-d986daf11f5c
-template: content
+template: pages/default
 updated_by: 1f523840-e2ac-4673-87a9-d986daf11f5c
 updated_at: 1671632320
 navigation: meta

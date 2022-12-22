@@ -5,7 +5,7 @@ title: Dienstleistungen
 author: 1f523840-e2ac-4673-87a9-d986daf11f5c
 updated_by: 1f523840-e2ac-4673-87a9-d986daf11f5c
 updated_at: 1671636505
-template: content
+template: pages/default
 navigation: main
 content:
   -
