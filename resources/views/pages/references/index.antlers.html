@@ -14,7 +14,7 @@
 
               <h2>{{ group }}</h2>
 
-              <div class="sm:grid sm:gap-4 md:gap-6 sm:grid-cols-12 mb-4 md:mb-8 last-of-type:!mb-0">
+              <div class="sm:grid sm:gap-4 md:gap-6 sm:grid-cols-12 mb-2 md:mb-4 last-of-type:!mb-0">
               
                 {{ items }}
 
@@ -28,7 +28,11 @@
 
                       <h3>{{ preview_title }}</h3>
 
-                      {{ year }}  
+                      {{ if in_realisation }}
+                        IN REALISATION
+                      {{ else }}
+                        {{ year }}  
+                      {{ /if }}
                     </a>
                     
                   </div>

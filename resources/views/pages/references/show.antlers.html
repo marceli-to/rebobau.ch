@@ -54,7 +54,7 @@
   </div>
 
   {{# Reference browser #}}
-  <nav class="flex justify-end items-center">
+  <nav class="flex justify-end items-center mt-4 md:mt-6">
     <div>
       {{ collection:previous in="references" as="reference" limit="1" sort="order" }}
         {{ reference }}
@@ -65,7 +65,7 @@
       {{ /collection:previous }}
     </div>
 
-    <div class="mx-2">
+    <div class="mx-2 md:mx-3">
       <a href="/referenzen" title="Referenzen">
         {{ partial:icons/cross-black }}
       </a>
@@ -91,14 +91,14 @@
   
   {{# Reference galleries #}}
   {{ if gallery }}
-    <div class="mt-2">
+    <div class="mt-2 md:mt-4">
 
       {{ gallery }}
         
           {{ if images | count == 2 }}
-            <div class="mb-2 md:mb-4 sm:grid sm:grid-cols-2 sm:gap-2 md:gap-4">
+            <div class="mb-6 md:mb-8 sm:grid sm:grid-cols-2 sm:gap-6 md:gap-8">
               {{ images }}
-                <figure class="mb-4 sm:mb-0">
+                <figure class="mb-6 sm:mb-0 shadow-4xl">
                   <img src="{{ glide :src="url" width="1600" height="1000" }}" class="w-full aspect-[16/10] object-cover" width="1600" height="900" alt="{{ caption }}">
                 </figure>
               {{ /images }}
@@ -106,9 +106,9 @@
           {{ /if }}
 
           {{ if images | count == 3 }}
-            <div class="mb-2 md:mb-4 sm:grid sm:grid-cols-3 sm:gap-2 md:gap-4">
+            <div class="mb-6 md:mb-8 sm:grid sm:grid-cols-3 sm:gap-6 md:gap-8">
               {{ images }}
-                <figure class="mb-4 sm:mb-0">
+                <figure class="mb-6 sm:mb-0 shadow-4xl">
                   <img src="{{ glide :src="url" width="900" height="1200" }}" class="w-full aspect-[3/4] object-cover" width="900" height="1200" alt="{{ caption }}">
                 </figure>
               {{ /images }}

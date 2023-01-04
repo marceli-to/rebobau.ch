@@ -56,6 +56,17 @@ sections:
           always_save: false
           validate:
             - required
+      -
+        handle: in_realisation
+        field:
+          default: false
+          display: 'In Realisation'
+          type: toggle
+          icon: toggle
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          always_save: false
   sidebar:
     display: Sidebar
     fields:
