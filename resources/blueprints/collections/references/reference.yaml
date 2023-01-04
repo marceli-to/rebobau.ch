@@ -234,7 +234,7 @@ sections:
           always_save: false
           width: 50
       -
-        handle: order
+        handle: job
         field:
           antlers: false
           display: Auftrag
@@ -261,4 +261,5 @@ sections:
           visibility: visible
           always_save: false
           width: 50
+          max_files: 1
 title: Reference

@@ -126,5 +126,3 @@ sections:
           always_save: false
           mode: default
           create: true
-          validate:
-            - required
