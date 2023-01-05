@@ -18,7 +18,7 @@ var ScrollReveal=function(){"use strict";var r={delay:0,distance:"0",duration:60
     origin: 'bottom',
     opacity: 0,
     duration: 200,
-    delay: 320,
+    delay: 240,
     easing: 'ease-in'
   };
 
