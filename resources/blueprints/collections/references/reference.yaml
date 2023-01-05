@@ -1,6 +1,6 @@
 sections:
-  main:
-    display: Main
+  content:
+    display: Content
     fields:
       -
         handle: title
@@ -67,29 +67,123 @@ sections:
           instructions_position: above
           visibility: visible
           always_save: false
-  sidebar:
-    display: Sidebar
+  info:
+    display: Info
     fields:
       -
-        handle: slug
+        handle: object
         field:
-          type: slug
-          localizable: true
-          instructions_position: above
+          input_type: text
+          antlers: false
+          display: Objekt
+          type: text
+          icon: text
           listable: hidden
+          instructions_position: below
           visibility: visible
           always_save: false
-          from: '{title}-{subtitle}'
-          generate: true
+          width: 50
+          instructions: 'z.B. Neubau'
       -
-        handle: parent
+        handle: client
         field:
-          type: entries
-          collections:
-            - references
-          max_items: 1
-          listable: false
-          localizable: true
+          input_type: text
+          antlers: false
+          display: Bauherr
+          type: text
+          icon: text
+          listable: hidden
+          instructions_position: below
+          visibility: visible
+          always_save: false
+          width: 50
+          instructions: 'z.B. Privat'
+      -
+        handle: commissioner
+        field:
+          input_type: text
+          antlers: false
+          display: Auftraggeber
+          type: text
+          icon: text
+          listable: hidden
+          instructions_position: below
+          visibility: visible
+          always_save: false
+          width: 50
+          instructions: 'z.B. Privater Investor'
+      -
+        handle: volume
+        field:
+          input_type: text
+          antlers: false
+          display: Bauvolumen
+          type: text
+          icon: text
+          width: 50
+          listable: hidden
+          instructions_position: below
+          visibility: visible
+          always_save: false
+          instructions: 'z.B. 3 EFH mit Tiefgarage'
+      -
+        handle: cost
+        field:
+          input_type: text
+          antlers: false
+          display: Baukosten
+          type: text
+          icon: text
+          listable: hidden
+          instructions_position: below
+          visibility: visible
+          always_save: false
+          width: 50
+          instructions: 'z.B. 3 Mio.'
+      -
+        handle: periode
+        field:
+          input_type: text
+          antlers: false
+          display: Bauzeit
+          type: text
+          icon: text
+          listable: hidden
+          instructions_position: below
+          visibility: visible
+          always_save: false
+          width: 50
+          instructions: 'z.B. Sommer 2021 - Frühling 2022'
+      -
+        handle: job
+        field:
+          antlers: false
+          display: Auftrag
+          type: textarea
+          icon: textarea
+          listable: hidden
+          instructions_position: below
+          visibility: visible
+          always_save: false
+          width: 50
+          instructions: 'z.B. Kostenmanagement, Ausschreibungen'
+      -
+        handle: download
+        field:
+          mode: list
+          container: assets
+          restrict: false
+          allow_uploads: true
+          show_filename: true
+          display: Download
+          type: assets
+          icon: assets
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          always_save: false
+          width: 50
+          max_files: 1
   images:
     display: Images
     fields:
@@ -162,115 +256,27 @@ sections:
           always_save: false
           buttons:
             - removeformat
-  data:
-    display: Data
+  settings:
+    display: Settings
     fields:
       -
-        handle: object
+        handle: slug
         field:
-          input_type: text
-          antlers: false
-          display: Objekt
-          type: text
-          icon: text
-          listable: hidden
-          instructions_position: below
-          visibility: visible
-          always_save: false
-          width: 50
-          instructions: 'z.B. Neubau'
-      -
-        handle: client
-        field:
-          input_type: text
-          antlers: false
-          display: Bauherr
-          type: text
-          icon: text
-          listable: hidden
+          type: slug
+          localizable: true
           instructions_position: above
-          visibility: visible
-          always_save: false
-          width: 50
-      -
-        handle: commissioner
-        field:
-          input_type: text
-          antlers: false
-          display: Auftraggeber
-          type: text
-          icon: text
           listable: hidden
-          instructions_position: above
           visibility: visible
           always_save: false
-          width: 50
+          from: '{title}-{subtitle}'
+          generate: true
       -
-        handle: volume
+        handle: parent
         field:
-          input_type: text
-          antlers: false
-          display: Bauvolumen
-          type: text
-          icon: text
-          width: 50
-          listable: hidden
-          instructions_position: above
-          visibility: visible
-          always_save: false
-      -
-        handle: cost
-        field:
-          input_type: text
-          antlers: false
-          display: Baukosten
-          type: text
-          icon: text
-          listable: hidden
-          instructions_position: above
-          visibility: visible
-          always_save: false
-          width: 50
-      -
-        handle: periode
-        field:
-          input_type: text
-          antlers: false
-          display: Bauzeit
-          type: text
-          icon: text
-          listable: hidden
-          instructions_position: above
-          visibility: visible
-          always_save: false
-          width: 50
-      -
-        handle: job
-        field:
-          antlers: false
-          display: Auftrag
-          type: textarea
-          icon: textarea
-          listable: hidden
-          instructions_position: above
-          visibility: visible
-          always_save: false
-          width: 50
-      -
-        handle: download
-        field:
-          mode: list
-          container: assets
-          restrict: false
-          allow_uploads: true
-          show_filename: true
-          display: Download
-          type: assets
-          icon: assets
-          listable: hidden
-          instructions_position: above
-          visibility: visible
-          always_save: false
-          width: 50
-          max_files: 1
+          type: entries
+          collections:
+            - references
+          max_items: 1
+          listable: false
+          localizable: true
 title: Reference
