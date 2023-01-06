@@ -31,6 +31,10 @@ module.exports = {
         'primary': '#B79A81',
       },
 
+      backgroundImage: {
+        'hero-pattern': "url('/img/hero-pattern.svg')",
+      },
+
       borderRadius: {
         '4xl': '2.5rem',
       },
