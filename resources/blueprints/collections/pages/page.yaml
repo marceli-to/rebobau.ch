@@ -37,17 +37,29 @@ sections:
               fields:
                 -
                   import: text_media
-            template:
-              display: Template
+            map:
+              display: Map
               fields:
                 -
-                  handle: template_field
+                  handle: latitude
                   field:
-                    hide_partials: false
-                    blueprint: false
-                    display: 'Template Field'
-                    type: template
-                    icon: template
+                    input_type: text
+                    antlers: false
+                    display: Latitude
+                    type: text
+                    icon: text
+                    listable: hidden
+                    instructions_position: above
+                    visibility: visible
+                    always_save: false
+                -
+                  handle: longitude
+                  field:
+                    input_type: text
+                    antlers: false
+                    display: Longitude
+                    type: text
+                    icon: text
                     listable: hidden
                     instructions_position: above
                     visibility: visible

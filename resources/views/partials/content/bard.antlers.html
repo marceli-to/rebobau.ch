@@ -22,4 +22,8 @@
     {{ partial:content/services :column_left="column_left" :column_right="column_right" }}
   {{ /if }}
 
+  {{ if type == "map" }}
+    {{ partial:content/map :latitude="latitude" :longitude="longitude" }}
+  {{ /if }}
+
 {{ /content }}
