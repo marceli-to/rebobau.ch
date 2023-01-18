@@ -52,6 +52,12 @@ return [
           'limit' => 10,
           'width' => 50
         ],
+        [ 
+          'type' => 'collection',
+          'collection' => 'team',
+          'limit' => 10,
+          'width' => 50
+        ],
     ],
 
     /*
