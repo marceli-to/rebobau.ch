@@ -89,8 +89,6 @@ sections:
           instructions_position: above
           visibility: visible
           always_save: false
-          validate:
-            - required
   sidebar:
     display: Sidebar
     fields:
