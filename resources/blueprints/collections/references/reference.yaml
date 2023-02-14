@@ -113,6 +113,18 @@ sections:
           width: 50
           instructions: 'z.B. Privater Investor'
       -
+        handle: ref
+        field:
+          antlers: false
+          display: Referenz
+          type: textarea
+          icon: textarea
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          always_save: false
+          width: 50
+      -
         handle: volume
         field:
           input_type: text

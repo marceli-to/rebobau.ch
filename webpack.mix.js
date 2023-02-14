@@ -20,13 +20,19 @@ mix.webpackConfig({
 mix.js('resources/js/app.js', 'public/js');
 
 mix.postCss('resources/css/app.css', 'public/css', [
-    require('postcss-import'),
-    require('tailwindcss/nesting'),
-    require('tailwindcss'),
+  require('postcss-import'),
+  require('tailwindcss/nesting'),
+  require('tailwindcss'),
+]);
+
+mix.postCss('resources/css/print.css', 'public/css', [
+  require('postcss-import'),
+  require('tailwindcss/nesting'),
+  require('tailwindcss'),
 ]);
 
 if (mix.inProduction()) {
-   mix.version();
+  mix.version();
 }
 
 /*
