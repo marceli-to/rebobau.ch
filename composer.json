@@ -12,10 +12,10 @@
         "php": "^8.0",
         "fruitcake/laravel-cors": "^2.0",
         "guzzlehttp/guzzle": "^7.0.1",
-        "jacksleight/statamic-bard-texstyle": "^1.0",
+        "jacksleight/statamic-bard-texstyle": "^2.0",
         "laravel/framework": "^9.0",
         "laravel/tinker": "^2.5",
-        "statamic/cms": "3.3.*"
+        "statamic/cms": "3.4.*"
     },
     "require-dev": {
         "barryvdh/laravel-debugbar": "^3.6",

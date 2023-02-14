@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d09f3658dd3e8a804f87c56eb99ee7fc",
+    "content-hash": "d5be097415829f36e12b6d03de0ab29a",
     "packages": [
         {
             "name": "ajthinking/archetype",
@@ -1945,80 +1945,31 @@
             "time": "2022-05-21T17:30:32+00:00"
         },
         {
-            "name": "jacksleight/statamic-bard-mutator",
-            "version": "1.1.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/jacksleight/statamic-bard-mutator.git",
-                "reference": "77871c5b521492960a25205b4cf6a0ac6efc001e"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/jacksleight/statamic-bard-mutator/zipball/77871c5b521492960a25205b4cf6a0ac6efc001e",
-                "reference": "77871c5b521492960a25205b4cf6a0ac6efc001e",
-                "shasum": ""
-            },
-            "require": {
-                "statamic/cms": "~3.1.14 || 3.2.* || 3.3.*"
-            },
-            "require-dev": {
-                "nunomaduro/collision": "^6.2",
-                "orchestra/testbench": "^7.5",
-                "phpunit/phpunit": "^9.5"
-            },
-            "type": "library",
-            "extra": {
-                "statamic": {
-                    "name": "Bard Mutator",
-                    "description": "This Statamic addon allows you to modify the data and tags rendered by the Bard fieldtype, giving you full control over the final HTML."
-                },
-                "laravel": {
-                    "providers": [
-                        "JackSleight\\StatamicBardMutator\\ServiceProvider"
-                    ]
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "JackSleight\\StatamicBardMutator\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "support": {
-                "issues": "https://github.com/jacksleight/statamic-bard-mutator/issues",
-                "source": "https://github.com/jacksleight/statamic-bard-mutator/tree/1.1.3"
-            },
-            "funding": [
-                {
-                    "url": "https://github.com/jacksleight",
-                    "type": "github"
-                }
-            ],
-            "time": "2023-01-12T17:23:50+00:00"
-        },
-        {
             "name": "jacksleight/statamic-bard-texstyle",
-            "version": "1.0.3",
+            "version": "2.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jacksleight/statamic-bard-texstyle.git",
-                "reference": "c7ed14fe29ab404e762146ab8492212c3994e066"
+                "reference": "21e4ac102d42b931203457a6d5b1da5e57e2ad71"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jacksleight/statamic-bard-texstyle/zipball/c7ed14fe29ab404e762146ab8492212c3994e066",
-                "reference": "c7ed14fe29ab404e762146ab8492212c3994e066",
+                "url": "https://api.github.com/repos/jacksleight/statamic-bard-texstyle/zipball/21e4ac102d42b931203457a6d5b1da5e57e2ad71",
+                "reference": "21e4ac102d42b931203457a6d5b1da5e57e2ad71",
                 "shasum": ""
             },
             "require": {
-                "jacksleight/statamic-bard-mutator": "^1.0.3",
-                "statamic/cms": "~3.2.24 || 3.3.*"
+                "statamic/cms": "^3.4.3"
             },
             "type": "library",
             "extra": {
                 "statamic": {
                     "name": "Bard Texstyle",
-                    "description": "This Statamic addon gives you the ability to add custom heading, paragraph and inline (span) text styles to the Bard fieldtype."
+                    "description": "This Statamic addon allows you to add custom element styles to the Bard fieldtype and edit element attributes.",
+                    "editions": [
+                        "free",
+                        "pro"
+                    ]
                 },
                 "laravel": {
                     "providers": [
@@ -2034,9 +1985,9 @@
             "notification-url": "https://packagist.org/downloads/",
             "support": {
                 "issues": "https://github.com/jacksleight/statamic-bard-texstyle/issues",
-                "source": "https://github.com/jacksleight/statamic-bard-texstyle/tree/1.0.3"
+                "source": "https://github.com/jacksleight/statamic-bard-texstyle/tree/2.1.0"
             },
-            "time": "2022-06-21T12:02:08+00:00"
+            "time": "2023-02-13T12:26:22+00:00"
         },
         {
             "name": "james-heinrich/getid3",
@@ -4758,6 +4709,84 @@
             "time": "2023-01-13T08:09:51+00:00"
         },
         {
+            "name": "scrivo/highlight.php",
+            "version": "v9.18.1.9",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/scrivo/highlight.php.git",
+                "reference": "d45585504777e6194a91dffc7270ca39833787f8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/scrivo/highlight.php/zipball/d45585504777e6194a91dffc7270ca39833787f8",
+                "reference": "d45585504777e6194a91dffc7270ca39833787f8",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "php": ">=5.4"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.8|^5.7",
+                "sabberworm/php-css-parser": "^8.3",
+                "symfony/finder": "^2.8|^3.4",
+                "symfony/var-dumper": "^2.8|^3.4"
+            },
+            "suggest": {
+                "ext-mbstring": "Allows highlighting code with unicode characters and supports language with unicode keywords"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "HighlightUtilities/functions.php"
+                ],
+                "psr-0": {
+                    "Highlight\\": "",
+                    "HighlightUtilities\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Geert Bergman",
+                    "homepage": "http://www.scrivo.org/",
+                    "role": "Project Author"
+                },
+                {
+                    "name": "Vladimir Jimenez",
+                    "homepage": "https://allejo.io",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Martin Folkers",
+                    "homepage": "https://twobrain.io",
+                    "role": "Contributor"
+                }
+            ],
+            "description": "Server side syntax highlighter that supports 185 languages. It's a PHP port of highlight.js",
+            "keywords": [
+                "code",
+                "highlight",
+                "highlight.js",
+                "highlight.php",
+                "syntax"
+            ],
+            "support": {
+                "issues": "https://github.com/scrivo/highlight.php/issues",
+                "source": "https://github.com/scrivo/highlight.php"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/allejo",
+                    "type": "github"
+                }
+            ],
+            "time": "2021-12-03T06:45:28+00:00"
+        },
+        {
             "name": "seld/jsonlint",
             "version": "1.9.0",
             "source": {
@@ -4993,17 +5022,80 @@
             "time": "2022-01-05T09:38:04+00:00"
         },
         {
-            "name": "statamic/cms",
-            "version": "v3.3.68",
+            "name": "spatie/shiki-php",
+            "version": "1.3.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/statamic/cms.git",
-                "reference": "7b10df2b6117d37429d43d928886744f99b8309c"
+                "url": "https://github.com/spatie/shiki-php.git",
+                "reference": "34fe61405b405c735c82a9c56feffd3f7c5544ff"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/statamic/cms/zipball/7b10df2b6117d37429d43d928886744f99b8309c",
-                "reference": "7b10df2b6117d37429d43d928886744f99b8309c",
+                "url": "https://api.github.com/repos/spatie/shiki-php/zipball/34fe61405b405c735c82a9c56feffd3f7c5544ff",
+                "reference": "34fe61405b405c735c82a9c56feffd3f7c5544ff",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.4|^8.0"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^v3.0",
+                "pestphp/pest": "^1.8",
+                "phpunit/phpunit": "^9.5",
+                "spatie/pest-plugin-snapshots": "^1.1",
+                "spatie/ray": "^1.10"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Spatie\\ShikiPhp\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Rias Van der Veken",
+                    "email": "rias@spatie.be",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Freek Van der Herten",
+                    "email": "freek@spatie.be",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Highlight code using Shiki in PHP",
+            "homepage": "https://github.com/spatie/shiki-php",
+            "keywords": [
+                "shiki",
+                "spatie"
+            ],
+            "support": {
+                "source": "https://github.com/spatie/shiki-php/tree/1.3.0"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/spatie",
+                    "type": "github"
+                }
+            ],
+            "time": "2022-06-01T11:28:41+00:00"
+        },
+        {
+            "name": "statamic/cms",
+            "version": "v3.4.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/statamic/cms.git",
+                "reference": "e2cf1992e018e5af312c314d30f9062c6d4af3bb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/statamic/cms/zipball/e2cf1992e018e5af312c314d30f9062c6d4af3bb",
+                "reference": "e2cf1992e018e5af312c314d30f9062c6d4af3bb",
                 "shasum": ""
             },
             "require": {
@@ -5029,8 +5121,7 @@
                 "symfony/lock": "^5.1",
                 "symfony/var-exporter": "^4.3 || ^5.1 || ^6.0",
                 "symfony/yaml": "^4.1 || ^5.1 || ^6.0",
-                "ueberdosis/html-to-prosemirror": "^1.3",
-                "ueberdosis/prosemirror-to-html": "^2.6",
+                "ueberdosis/tiptap-php": "^1.1",
                 "voku/portable-ascii": "^1.6.1 || ^2.0",
                 "wilderborn/partyline": "^1.0"
             },
@@ -5083,7 +5174,7 @@
             ],
             "support": {
                 "issues": "https://github.com/statamic/cms/issues",
-                "source": "https://github.com/statamic/cms/tree/v3.3.68"
+                "source": "https://github.com/statamic/cms/tree/v3.4.3"
             },
             "funding": [
                 {
@@ -5091,7 +5182,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-02-02T23:43:51+00:00"
+            "time": "2023-02-08T21:59:27+00:00"
         },
         {
             "name": "statamic/stringy",
@@ -7997,31 +8088,34 @@
             "time": "2023-01-03T09:29:04+00:00"
         },
         {
-            "name": "ueberdosis/html-to-prosemirror",
-            "version": "1.5.0",
+            "name": "ueberdosis/tiptap-php",
+            "version": "1.1.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/ueberdosis/html-to-prosemirror.git",
-                "reference": "d2de3dbd7d8d891ed595c3b695b5f80d03697af6"
+                "url": "https://github.com/ueberdosis/tiptap-php.git",
+                "reference": "34c0b2472b5be91525718fcb50f8a4d046f97615"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ueberdosis/html-to-prosemirror/zipball/d2de3dbd7d8d891ed595c3b695b5f80d03697af6",
-                "reference": "d2de3dbd7d8d891ed595c3b695b5f80d03697af6",
+                "url": "https://api.github.com/repos/ueberdosis/tiptap-php/zipball/34c0b2472b5be91525718fcb50f8a4d046f97615",
+                "reference": "34c0b2472b5be91525718fcb50f8a4d046f97615",
                 "shasum": ""
             },
             "require": {
-                "php": "^7.1.3|^8.0"
+                "php": "^7.4|^8.0",
+                "scrivo/highlight.php": "v9.18.1.9",
+                "spatie/shiki-php": "^1.1"
             },
             "require-dev": {
-                "friendsofphp/php-cs-fixer": "^2.15",
-                "league/climate": "^3.5",
-                "phpunit/phpunit": "^7.0|^8.0|^9.0"
+                "friendsofphp/php-cs-fixer": "^3.5",
+                "pestphp/pest": "^1.21",
+                "phpunit/phpunit": "^9.5",
+                "vimeo/psalm": "^4.3"
             },
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "HtmlToProseMirror\\": "src/"
+                    "Tiptap\\": "src"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -8030,79 +8124,37 @@
             ],
             "authors": [
                 {
-                    "name": "Hans Pagel"
+                    "name": "Hans Pagel",
+                    "email": "humans@tiptap.dev",
+                    "role": "Developer"
                 }
             ],
-            "description": "Takes HTML and outputs ProseMirror compatible JSON.",
+            "description": "A PHP package to work with Tiptap output",
+            "homepage": "https://github.com/ueberdosis/tiptap-php",
             "keywords": [
-                "prosemirror"
+                "prosemirror",
+                "tiptap",
+                "ueberdosis"
             ],
             "support": {
-                "issues": "https://github.com/ueberdosis/html-to-prosemirror/issues",
-                "source": "https://github.com/ueberdosis/html-to-prosemirror/tree/1.5.0"
+                "issues": "https://github.com/ueberdosis/tiptap-php/issues",
+                "source": "https://github.com/ueberdosis/tiptap-php/tree/1.1.0"
             },
             "funding": [
                 {
-                    "url": "https://github.com/sponsors/ueberdosis/",
-                    "type": "github"
-                }
-            ],
-            "abandoned": true,
-            "time": "2021-01-19T11:34:35+00:00"
-        },
-        {
-            "name": "ueberdosis/prosemirror-to-html",
-            "version": "2.7.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/ueberdosis/prosemirror-to-html.git",
-                "reference": "7d22a0d213d3f204322a8814eab47ed4ea817f54"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/ueberdosis/prosemirror-to-html/zipball/7d22a0d213d3f204322a8814eab47ed4ea817f54",
-                "reference": "7d22a0d213d3f204322a8814eab47ed4ea817f54",
-                "shasum": ""
-            },
-            "require": {
-                "php": "^7.1.3|^8.0"
-            },
-            "require-dev": {
-                "friendsofphp/php-cs-fixer": "^2.15",
-                "league/climate": "^3.5",
-                "phpunit/phpunit": "^7.5.20"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "ProseMirrorToHtml\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
+                    "url": "https://tiptap.dev/pricing",
+                    "type": "custom"
+                },
                 {
-                    "name": "Hans Pagel"
-                }
-            ],
-            "description": "Takes HTML and outputs ProseMirror compatible JSON.",
-            "keywords": [
-                "prosemirror"
-            ],
-            "support": {
-                "issues": "https://github.com/ueberdosis/prosemirror-to-html/issues",
-                "source": "https://github.com/ueberdosis/prosemirror-to-html/tree/2.7.0"
-            },
-            "funding": [
-                {
-                    "url": "https://github.com/sponsors/ueberdosis/",
+                    "url": "https://github.com/ueberdosis",
                     "type": "github"
+                },
+                {
+                    "url": "https://opencollective.com/y-collective",
+                    "type": "open_collective"
                 }
             ],
-            "abandoned": true,
-            "time": "2021-08-18T08:05:58+00:00"
+            "time": "2022-02-07T13:37:02+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
