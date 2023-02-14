@@ -99,20 +99,6 @@ sections:
           width: 50
           instructions: 'z.B. Privat'
       -
-        handle: commissioner
-        field:
-          input_type: text
-          antlers: false
-          display: Auftraggeber
-          type: text
-          icon: text
-          listable: hidden
-          instructions_position: below
-          visibility: visible
-          always_save: false
-          width: 50
-          instructions: 'z.B. Privater Investor'
-      -
         handle: ref
         field:
           antlers: false
