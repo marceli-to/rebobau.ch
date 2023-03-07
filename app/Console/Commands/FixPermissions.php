@@ -26,7 +26,7 @@ class FixPermissions extends Command
   public function handle()
   {
     $path = base_path('vendor/statamic/cms/src/Fieldtypes/Terms.php');
-    $permissions = 0775;
+    $permissions = 0644;
     chmod($path, $permissions);
   }
 }
