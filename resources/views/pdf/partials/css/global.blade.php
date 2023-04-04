@@ -1,10 +1,18 @@
 <style>
 @font-face {
   font-family: 'Erbaum-Book';
-  src: url('{{ url("/") }}/css/fonts/Erbaum-Light.ttf') format("truetype");
-  font-weight: 300;
+  src: url('{{ url("/") }}/css/fonts/Erbaum-Book.ttf') format("truetype");
+  font-weight: normal;
   font-style: normal; 
 }
+
+@font-face {
+  font-family: 'Erbaum-Light';
+  src: url('{{ url("/") }}/css/fonts/Erbaum-Light.ttf') format("truetype");
+  font-weight: normal;
+  font-style: normal; 
+}
+
 
 @font-face {
   font-family: 'URWDIN-Light';
@@ -24,8 +32,8 @@ body {
 
 h1,
 strong {
-  font-family: 'Erbaum-Regular', Helvetica, Arial, sans-serif;
-  font-weight: 300;
+  font-family: 'Erbaum-Book', Helvetica, Arial, sans-serif;
+  font-weight: normal;
 }
 
 h1 {
@@ -80,6 +88,7 @@ table td {
 
 p {
   font-family: 'URWDIN-Light', Helvetica, Arial, sans-serif;
+  font-weight: normal;
   color: #000000;
   font-size: 10pt;
   margin: 0 0 4mm 0;
@@ -130,9 +139,20 @@ sup {
 }
 
 .footer {
+  font-size: 8.7pt;
   bottom: 0;
+  left: 0;
   position: fixed;
   z-index: 100;
+}
+
+.footer_byline {
+  font-family: 'Erbaum-Light', Helvetica, Arial, sans-serif;
+  font-size: 8.5pt;
+}
+
+.highlight {
+  color: #ba9a80;
 }
 
 .break {

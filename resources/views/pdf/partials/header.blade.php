@@ -10,5 +10,6 @@
   <img src="{{ public_path('img/logo-rebobau.png') }}" alt="Logo" width="100" style="display: inline-block; width: 33mm; height: 13.57mm" />
 </header>
 <footer class="footer">
-
+  <div>REBOBAU AG · <span class="highlight">BAUMANAGEMENT</span></div>
+  <div class="footer_byline">ALLMENDSTRASSE 31 · 8320 FEHRALTORF · T 044 952 30 30 · INFO@REBOBAU.CH · WWW.REBOBAU.CH</div>
 </footer>

@@ -28,11 +28,15 @@
         "normal": "erbaum_regular_normal_e5f7806ab0a01dc1d8fd49ed802da522"
     },
     "erbaum-book": {
-        "normal": "\/Users\/marceli.to\/Jamon.digital\/Webroot\/rebobau.ch\/storage\/fonts\/erbaum_book_normal_b8036805b7a77ecc36b699ed5c82f94d",
-        "300": "erbaum_book_300_4c9ca6939a23dbc94889354884b3361e"
+        "normal": "erbaum_book_normal_b8036805b7a77ecc36b699ed5c82f94d",
+        "300": "erbaum_book_300_b8036805b7a77ecc36b699ed5c82f94d"
     },
     "urwdin-light": {
-        "200": "\/Users\/marceli.to\/Jamon.digital\/Webroot\/rebobau.ch\/storage\/fonts\/urwdin_light_200_371ff1ce449435a7b7e967e8eb5832cc",
+        "200": "urwdin_light_200_371ff1ce449435a7b7e967e8eb5832cc",
         "normal": "urwdin_light_normal_371ff1ce449435a7b7e967e8eb5832cc"
+    },
+    "erbaum-light": {
+        "300": "erbaum_light_300_4c9ca6939a23dbc94889354884b3361e",
+        "normal": "erbaum_light_normal_4c9ca6939a23dbc94889354884b3361e"
     }
 }
