@@ -141,7 +141,8 @@ sup {
 .footer {
   font-size: 8.7pt;
   bottom: 0;
-  left: 0;
+  left: 1mm;
+  padding-top: 1mm;
   position: fixed;
   z-index: 100;
 }
@@ -187,7 +188,7 @@ sup {
 
 .page-content {
   margin-top: 5mm;
-  padding-top: 4mm;
+  padding-top: 6mm;
   width: 173mm;
 }
 
