@@ -1,7 +1,7 @@
 <style>
 @page {
   size: A4;
-  margin: 12mm 12mm 12mm 24mm;
+  margin: 12mm 12mm 10mm 24mm;
 }
 
 @media print {
