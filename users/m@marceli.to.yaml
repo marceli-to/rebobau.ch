@@ -19,3 +19,6 @@ preferences:
         - title
         - year
         - subtitle
+  assets:
+    assets:
+      per_page: 100

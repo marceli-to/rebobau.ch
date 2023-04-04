@@ -17,4 +17,4 @@ use App\Http\Controllers\PdfController;
 //    'title' => 'Example'
 // ]);
 
-Route::get('/export/pdf', [PdfController::class, 'index']);
+Route::get('/export/pdf/{id}', [PdfController::class, 'index']);

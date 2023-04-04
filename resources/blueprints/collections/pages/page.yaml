@@ -92,6 +92,8 @@ sections:
           instructions_position: above
           visibility: visible
           always_save: false
+          smart_typography: false
+          inline: false
   seo:
     display: SEO
     fields:

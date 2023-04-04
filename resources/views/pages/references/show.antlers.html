@@ -41,15 +41,12 @@
       {{ /if }}
     </div>
     <div class="sm:col-span-4">
-      {{ if download }}
       <h3 class="font-capitalized uppercase">Download</h3>
       <p>
-        <a href="/assets/{{ download:path }}" title="{{ download:alt}}" target="_blank">
-          {{ download:alt }}
+        <a href="/export/pdf/{{ id }}" title="Download Datenblatt" target="_blank">
           {{ partial:icons/pdf }}
         </a>
       </p>
-      {{ /if }}
     </div>
   </div>
 

@@ -10,8 +10,11 @@
     "type": "project",
     "require": {
         "php": "^8.0",
+        "barryvdh/laravel-dompdf": "^2.0",
         "fruitcake/laravel-cors": "^2.0",
         "guzzlehttp/guzzle": "^7.0.1",
+        "intervention/image": "^2.7",
+        "intervention/imagecache": "^2.6",
         "jacksleight/statamic-bard-texstyle": "^2.0",
         "laravel/framework": "^9.0",
         "laravel/tinker": "^2.5",
