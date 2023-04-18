@@ -44,35 +44,37 @@
     <td style="width: 114mm;">
       @if ($data->gallery)
         @foreach($data->gallery as $row)
-          @if ($row->images && $row->images->count() == 2)
-            <table style="margin-bottom: 4mm">
-              <tr>
-                <td>
-                  <img src="{{ env('APP_URL') }}/img/cache/landscape/{{ basename($row->images[0]->path)}}" width="100" style="display: block; width: 55mm; height: auto">  
-                </td>
-                <td style="width: 4mm"></td>
-                <td>
-                  <img src="{{ env('APP_URL') }}/img/cache/landscape/{{ basename($row->images[1]->path)}}" width="100" style="display: block; width: 55mm; height: auto">
-                </td>
-              </tr>
-            </table>
-          @endif
-          @if ($row->images && $row->images->count() == 3)
-            <table style="margin-bottom: 4mm">
-              <tr>
-                <td>
-                  <img src="{{ env('APP_URL') }}/img/cache/portrait/{{ basename($row->images[0]->path)}}" width="100" style="display: block; width: 35.333mm; height: auto">  
-                </td>
-                <td style="width: 4mm"></td>
-                <td>
-                  <img src="{{ env('APP_URL') }}/img/cache/portrait/{{ basename($row->images[1]->path)}}" width="100" style="display: block; width: 35.333mm; height: auto">
-                </td>
-                <td style="width: 4mm"></td>
-                <td>
-                  <img src="{{ env('APP_URL') }}/img/cache/portrait/{{ basename($row->images[2]->path)}}" width="100" style="display: block; width: 35.333mm; height: auto">
-                </td>
-              </tr>
-            </table>
+          @if ($loop->iteration <= 3)
+            @if ($row->images && $row->images->count() == 2)
+              <table style="margin-bottom: 4mm">
+                <tr>
+                  <td>
+                    <img src="{{ env('APP_URL') }}/img/cache/landscape/{{ basename($row->images[0]->path)}}" width="100" style="display: block; width: 55mm; height: auto">  
+                  </td>
+                  <td style="width: 4mm"></td>
+                  <td>
+                    <img src="{{ env('APP_URL') }}/img/cache/landscape/{{ basename($row->images[1]->path)}}" width="100" style="display: block; width: 55mm; height: auto">
+                  </td>
+                </tr>
+              </table>
+            @endif
+            @if ($row->images && $row->images->count() == 3)
+              <table style="margin-bottom: 4mm">
+                <tr>
+                  <td>
+                    <img src="{{ env('APP_URL') }}/img/cache/portrait/{{ basename($row->images[0]->path)}}" width="100" style="display: block; width: 35.333mm; height: auto">  
+                  </td>
+                  <td style="width: 4mm"></td>
+                  <td>
+                    <img src="{{ env('APP_URL') }}/img/cache/portrait/{{ basename($row->images[1]->path)}}" width="100" style="display: block; width: 35.333mm; height: auto">
+                  </td>
+                  <td style="width: 4mm"></td>
+                  <td>
+                    <img src="{{ env('APP_URL') }}/img/cache/portrait/{{ basename($row->images[2]->path)}}" width="100" style="display: block; width: 35.333mm; height: auto">
+                  </td>
+                </tr>
+              </table>
+            @endif
           @endif
         @endforeach
       @endif
