@@ -22,6 +22,14 @@ class PdfController extends Controller
       ->where('id', $id)
       ->first();
 
+    // Copy the hero image to temp folder
+    $sourcePath = public_path('assets/' . $entry->hero->path);
+    $destinationPath = public_path('assets/_temp/'. basename($entry->hero));
+    if (!File::exists($destinationPath))
+    {
+      File::copy($sourcePath, $destinationPath);
+    }
+    
     // Copy all images to temp folder
     foreach($entry->gallery as $gallery)
     {
