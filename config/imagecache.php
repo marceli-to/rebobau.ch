@@ -32,6 +32,7 @@ return [
 
     'paths' => [
       public_path('upload'),
+      public_path('assets/_temp'),
       public_path('assets/references'),
       public_path('assets/images/references'),
       public_path('assets/images'),

@@ -1,6 +1,7 @@
 <?php
 namespace App\Http\Controllers;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\File;
 use Statamic\Facades\Collection;
 use Statamic\Facades\Entry;
 use App\Services\Pdf\Pdf;
@@ -20,6 +21,23 @@ class PdfController extends Controller
       ->where('collection', 'references')
       ->where('id', $id)
       ->first();
+
+    // Copy all images to temp folder
+    foreach($entry->gallery as $gallery)
+    {
+      if ($gallery->images)
+      {
+        foreach($gallery->images as $img)
+        {
+          $sourcePath = public_path('assets/' . $img->path);
+          $destinationPath = public_path('assets/_temp/'. basename($img));
+          if (!File::exists($destinationPath))
+          {
+            File::copy($sourcePath, $destinationPath);
+          }
+        }
+      }
+    }
 
     $pdf = (new Pdf())->create([
       'data' => $entry,
