@@ -26,7 +26,7 @@
       @endif
       @if ($data->volume)
         <h3>Bauvolumen</h3>
-        <p>{{ $data->volume }}</p>
+        <p>{!! nl2br($data->volume) !!}</p>
       @endif
       @if ($data->cost)
         <h3>Kosten</h3>

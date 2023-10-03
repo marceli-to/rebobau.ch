@@ -113,11 +113,10 @@ sections:
       -
         handle: volume
         field:
-          input_type: text
           antlers: false
           display: Bauvolumen
-          type: text
-          icon: text
+          type: textarea
+          icon: textarea
           width: 50
           listable: hidden
           instructions_position: below
